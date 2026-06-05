@@ -2,7 +2,7 @@
     "name": "MeshyTool.Editor",
     "rootNamespace": "MeshyTool",
     "references": [
-        "UnityMeshSimplifier"
+        "Whinarn.UnityMeshSimplifier.Runtime"
     ],
     "includePlatforms": [
         "Editor"
