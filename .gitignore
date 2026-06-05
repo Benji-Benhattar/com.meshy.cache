@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.venv/
+.env
+*.tmp
+# Anything a user might drop in PythonBridge~ for local secrets
+PythonBridge~/.env
+PythonBridge~/credentials*.json
+PythonBridge~/service-account*.json

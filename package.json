@@ -1,0 +1,24 @@
+{
+  "name": "com.meshy.cache",
+  "version": "0.1.0",
+  "displayName": "Meshy Cache",
+  "description": "Browse Meshy community AI-generated 3D models from a BigQuery RAG and import them into Unity with automatic mesh simplification (UnityMeshSimplifier), texture compression, and per-suffix TextureImporter settings. Includes a 3-view render probe for visually verifying imports.\n\nRequires a small Python bridge process (HTTP localhost) for the BigQuery vector search + the headless-browser Meshy GLB capture. See PythonBridge~/README.md.",
+  "unity": "2022.3",
+  "dependencies": {
+    "com.unity.cloud.gltfast": "6.19.0",
+    "com.unity.cloud.draco": "5.4.0"
+  },
+  "keywords": [
+    "meshy",
+    "ai",
+    "3d",
+    "import",
+    "rag",
+    "asset-pipeline"
+  ],
+  "author": {
+    "name": "Benjamin Benhattar"
+  },
+  "license": "MIT",
+  "type": "tool"
+}

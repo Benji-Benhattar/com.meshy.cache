@@ -1,0 +1,7 @@
+google-cloud-bigquery>=3.20
+db-dtypes>=1.2
+playwright>=1.40
+DracoPy>=1.4
+Pillow>=10.0
+pandas>=2.0
+pyarrow>=14.0
